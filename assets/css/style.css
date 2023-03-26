@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    color: #3F4A3C;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+/* headings and logo */
+.main-header {
+    height: 6rem;
+    background-color: #CBD18F;
+}
+
+h1,
+h2 {
+    font-family: Quicksand, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #3F4A3C;
+}
+
+#logo {
+    float: left;
+    margin-left: 25px;
+    font-size: 300%;
+}
+
+/* nav links */
+#menu {
+    font-size: 110%;
+    letter-spacing: 2px;
+}
+
+#menu,
+#logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+    padding: 4px 4px;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+#menu a:hover {
+    border: 10px;
+    box-shadow: 0 0 20px #E3B448;
+}
+
+.active {
+    border: 10px;
+    box-shadow: 0 0 10px #E3B448;
+}
+
+/* hero-image and intro */
+#section1 {
+    width: 100%;
+}
+
+#hero-image {
+    width: 50%;
+    height: 500px;
+    background: url('../images/pexels-photo-810493\ hero\ image.jpeg') no-repeat left center;
+    overflow: hiddens;
+    float: left;
+    padding-top: 20px;
+}
+
+* text properties for home page */ .h2-home {
+    line-height: 40px;
+    text-align: center;
+    padding: 100px 20px 50px;
+}
+
+.p-home {
+    line-height: 30px;
+    text-align: center;
+    padding: 0 20px;
+}
+
+
+#boots {
+    width: 50%;
+    height: 500px;
+    background: url('../images/pexels-photo-442587\ cover.webp') no-repeat center center;
+    overflow: hidden;
+    float: left;
+    padding-top: 20px;
+}
+
+.click-here {
+    text-decoration: none;
+    color: #0e647e;
+}
+
+.click-here:hover {
+    text-decoration: underline;
+}
+
+#introduction {
+    width: 50%;
+    height: 500px;
+    float: right;
+    padding-top: 20px;
+}
