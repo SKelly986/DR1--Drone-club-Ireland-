@@ -10,18 +10,47 @@
 body {
     font-family: roboto, sans-serif;
     font-weight: 400;
-    color:black;
+    color: black;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    background-color:rgb(230, 240, 255) ;
+    background-color:rgb(196, 189, 184) ;
+    
 }
 
 /* headings and logo */
 
+#main-image {
+    background: url(../images/pexels-photo-442587\ cover.webp);
+    height: 400px;
+    width: 90%;
+    background-size: cover;
+    line-height: 30px;
+    overflow: hidden;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    margin-left: 75px;
+
+    /* animation zoom effect*/
+    animation-name: zoom-in;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes zoom-in {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
 .main-header {
     height: 6rem;
-    background-color:rgb(77, 148, 255);
+    background-color: rgb(51, 20, 0);
 }
 
 h1,
@@ -36,12 +65,14 @@ h2 {
     float: left;
     margin-left: 25px;
     font-size: 300%;
+    color: rgb(196, 189, 184);
 }
 
 /* nav links */
 #menu {
     font-size: 110%;
     letter-spacing: 2px;
+    color:rgb(196, 189, 184) ;
 }
 
 #menu,
@@ -87,7 +118,7 @@ h2 {
     padding-top: 20px;
 }
 
-/* text properties for home page */ 
+/* text properties for home page */
 .h2-home {
     line-height: 40px;
     text-align: center;
