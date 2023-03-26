@@ -10,16 +10,18 @@
 body {
     font-family: roboto, sans-serif;
     font-weight: 400;
-    color: #3F4A3C;
+    color:black;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    background-color:rgb(230, 240, 255) ;
 }
 
 /* headings and logo */
+
 .main-header {
     height: 6rem;
-    background-color: #CBD18F;
+    background-color:rgb(77, 148, 255);
 }
 
 h1,
@@ -27,7 +29,7 @@ h2 {
     font-family: Quicksand, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #3F4A3C;
+    color: black;
 }
 
 #logo {
@@ -85,7 +87,8 @@ h2 {
     padding-top: 20px;
 }
 
-* text properties for home page */ .h2-home {
+/* text properties for home page */ 
+.h2-home {
     line-height: 40px;
     text-align: center;
     padding: 100px 20px 50px;
